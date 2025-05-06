@@ -35,12 +35,7 @@ if st.button("Translate"):
         response = deepl_utils.translate(text_to_translate, target_lang)
         st.success("Translation successful:")
         st.write(response.text)
-    # try:
-    #     result = translator.translate_text(text, target_lang=target_lang)
-    #     st.success("Translation:")
-    #     st.write(result.text)
-    # except deepl.DeepLException as e:
-    #     st.error(f"Translation failed: {str(e)}")
+
 
 st.subheader("WRITING STYLE")
 text_to_improve = st.text_area("Enter text to improve style:", key="style")
