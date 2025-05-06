@@ -5,7 +5,7 @@ import streamlit as st
 #load_dotenv()
 
 #API_KEY = os.getenv('DEEPL_API_KEY')
-API_KEY = st.secrets("DEEPL_API_KEY")
+API_KEY = st.secrets["DEEPL_API_KEY"]
 deepl_client = deepl.DeepLClient(API_KEY)
 
 
