@@ -7,7 +7,7 @@ st.title("Text Translator with DeepL")
 # Language options
 langs = {
     "English": "EN-US",
-    "Czech": "CZ",
+    "Czech": "CS",
     "French": "FR",
     "German": "DE",
     "Spanish": "ES",
